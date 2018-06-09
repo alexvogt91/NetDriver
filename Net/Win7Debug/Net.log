@@ -1,0 +1,21 @@
+﻿Build started 09/06/2018 16:58:45.
+     1>Project "C:\Users\KiSystem\Desktop\Net\Net\Net.vcxproj" on node 2 (Rebuild target(s)).
+     1>StampInf:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\stampinf.exe -d "*" -a "x86" -v "*" -k "1.11" -u "1.11.0" -f Win7Debug\Net.inf 
+         Stamping Win7Debug\Net.inf [Version] section with DriverVer=06/09/2018,16.58.45.374
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IWin7Debug\ /Zi /nologo /W0 /WX /Od /Oi /Oy- /D _X86_=1 /D i386=1 /D STD_CALL /D DEPRECATE_DDK_FUNCTIONS=1 /D MSC_NOOPT /D _WIN32_WINNT=0x0601 /D WINVER=0x0601 /D WINNT=1 /D NTDDI_VERSION=0x06010000 /D DBG=1 /GF /Gm- /Zp8 /GS /Gy /fp:precise /Zc:wchar_t- /Zc:forScope- /GR- /Fo"Win7Debug\\" /Fd"Win7Debug\vc120.pdb" /Gz /wd4748 /wd4603 /wd4627 /wd4986 /wd4987 /wd4996 /FI"C:\Program Files (x86)\Windows Kits\8.1\Include\Shared\warning.h" /analyze- /errorReport:prompt /kernel -cbstring /d1import_no_registry /d2AllowCompatibleILVersions /d2Zi+ driver.c
+         driver.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\KiSystem\Desktop\Net\Win7Debug\Net.sys" /VERSION:"6.3" /INCREMENTAL:NO /NOLOGO /WX /SECTION:"INIT,d" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x86\memcmp.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x86\BufferOverflowK.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x86\ntoskrnl.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x86\hal.lib" "C:\Program Files (x86)\Windows Kits\8.1\lib\win7\KM\x86\wmilib.lib" /NODEFAULTLIB /MANIFEST:NO /DEBUG /PDB:"C:\Users\KiSystem\Desktop\Net\Win7Debug\Net.pdb" /SUBSYSTEM:NATIVE,"6.01" /Driver /OPT:REF /OPT:ICF /ENTRY:"GsDriverEntry@8" /RELEASE /IMPLIB:"C:\Users\KiSystem\Desktop\Net\Win7Debug\Net.lib" /MERGE:"_TEXT=.text;_PAGE=PAGE" /MACHINE:X86 /PROFILE /kernel /IGNORE:4198,4010,4037,4039,4065,4070,4078,4087,4089,4221 /osversion:6.3 /pdbcompress /debugtype:pdata Win7Debug\driver.obj
+         Net.vcxproj -> C:\Users\KiSystem\Desktop\Net\Win7Debug\Net.sys
+       DriverTestSign:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\signtool.exe sign /ph /sha1 "7AC0FCA54AB705884E77CE4251B9DF79E49DF3FD" 
+         Done Adding Additional Store
+         Successfully signed: C:\Users\KiSystem\Desktop\Net\Win7Debug\Net.sys
+         
+     1>Done Building Project "C:\Users\KiSystem\Desktop\Net\Net\Net.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.46
